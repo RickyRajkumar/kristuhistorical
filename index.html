@@ -1,0 +1,253 @@
+<!-- comments -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: yellowgreen; font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: BLACK;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+		button{
+			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: black; font-weight: bold; font-size: 15px;
+		}
+	</style>
+    <style>
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(to right, #f9d423, #ffeb3b);
+    font-family: Arial, sans-serif;
+}
+
+
+.a { grid-area: a1; }
+.b { grid-area: b1; }
+.c { grid-area: c1; }
+.d { grid-area: d1; }
+.e { grid-area: e1; }
+
+
+.maindiv {
+    display: grid;
+    grid-template-areas:
+        "a1 a1"
+        "b1 c1"
+        "d1 e1";
+    gap: 20px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 20px;
+    background: cadetblue;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.maindiv > div {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+
+.maindiv > div:hover {
+    transform: translateY(-5px);
+}
+
+
+img {
+    width: 100%;       
+    height: auto;       
+    max-width: 500px;   
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    display: block;
+    margin: auto;       
+}
+
+button {
+    background: #ff69b4;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+button:hover {
+    background: #ff1493;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .maindiv {
+        grid-template-areas:
+            "a1"
+            "b1"
+            "c1"
+            "d1"
+            "e1";
+    }
+}
+</style>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="navdiv">
+        <ul style="list-style: none; text-align: center;">
+            <li style="display: inline-block; margin: 0 15px;">
+                <a href="index.html">Home</a>
+            </li>
+            <li style="display: inline-block; margin: 0 15px;">
+                <a href="about.html">About</a>
+            </li>
+            <li style="display: inline-block; margin: 0 15px;">
+                <a href="contact.html">Contact</a>
+            </li>
+            <button><a href="signin.html">SignIn</a></button>
+            <button><a href="signup.html">SignUp</a></button>
+        </ul>
+    </div>
+</nav>
+
+<h1 style="
+    text-align: center;
+    font-size: 36px;
+    color: darkblue;
+    margin-top: 60px;
+">
+    HISTORICAL PLACES
+</h1>
+    <div class="b">
+        <h1> Taj Mahal</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2017/07/Agra1.jpg">
+        <br>
+        <br>
+        <p> Discover Red Fort in Delhi which is one of the famous places in India. Meet the boss of Indian historical places. If you consider the top 10 historical places in India, Taj Mahal will always be ranking high in the list. Explore the ultimate epitome of love, the Taj Mahal, whose grandeur remains unmatched in history and today this is one of the weekend getaways from Delhi. This opulent white marble structure was commissioned to be built in 1632 by Shah Jahan for his late wife Mumtaz Mahal. It took around 22 years to complete this magnificent structure that is considered one of the most famous historical places in India.
+
+            According to local legend, it was believed that Shah Jahan cut off the hands of all the workers who built the Taj Mahal so that a similar monument could not be built.
+            
+            </p>
+
+        <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank"><button> See more</button></a>
+        
+        
+
+    </div>
+    <div class="a">
+        <h1> Agra Fort</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Agra-Fort-Uttar-Pradesh.jpg">
+        <br>
+        <br>
+        <p> To get a sense of the rich history of the Mughal era, visit the walled palatial Agra Fort, one of the famous historical places in India that is built entirely of red sandstone. Built in 1565 by Akbar, this historical tourist place in India has two ornately designed gates: the Amar Singh Gate and the Delhi Gate. You can only enter through the Amar Singh Gate to uncover an ancient city filled with gateways, courts, passages, palaces and mosques. It is one of the most beautiful places to visit in Agra.</p>
+        <a href="https://en.wikipedia.org/wiki/Agra_Fort" target="_blank"><button> See more</button></a>
+
+    </div>
+    <div class="c">
+        <h1> Red Fort</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Red-Fort-Delhi.jpg">
+        <br>
+        <br>
+        <p> One of the historical tourist places in India, the Red Fort was constructed over ten years from 1638 to 1648. This fort was constructed when Shah Jahan shifted the capital from Agra to Delhi and it was then known as the Qila-e-Mubarak. This octagonal fort is one of the most famous historical places in north India and is also the site where the President gives his speech on Independence Day. The Red fort is truly remarkable and one of the best historical places in India.</p>
+        <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank"><button> See more</button></a>
+
+    </div>
+    <div class="d">
+        <h1> Qutub Minar</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Qutub-Minar-Delhi.jpg">
+        <br>
+        <br>
+        <p> Regarded as the site of the first Muslim kingdom in northern India, the Qutub Minar is definitely one of the most historical sites in India. It is one of the finest examples of Indo-Muslim architecture with its intricate red sandstone storeys. These are dotted with carvings and verses from the Quran and are mostly in Arabic and Nagari. Qutub Minar is one of the famous historical places in India and is said to have got its name from Qutb-ud-din Aibak who was the first Muslim ruler of North India. The first mosque in India Quwwat-ul-Islam Masjid is also located at the foot of the Qutub Minar.</p>
+        <a href="https://en.wikipedia.org/wiki/Qutub_Minar" target="_blank"><button> See more</button></a>
+
+    </div>
+    <div class="e">
+        <h1> Humayun’s Tomb</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Humayun%E2%80%99s-Tomb-Delhi.jpg">
+        <br>
+        <br>
+        <p> A beautiful synthesis of Indian and Persian architecture, Humayun’s Tomb is one of the most famous and important places in India. Humayun’s wife Hamida Banu Begum commissioned the building of this tomb for her husband in the 15th century. Arched alcoves, beautiful domes, elaborate corridors and kiosks – all make this monument a grandeur of Indian architecture. There is also a barber’s tomb at the southwestern side of the main tomb. It is one of the most famous tourist places in Delhi that one should certainly visit.</p>
+        <a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb" target="_blank"><button> See more</button></a>
+
+    </div>
+    <div class="f">
+        <h1> Fatehpuri Sikri</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Fatehpuri-Sikri-Uttar-Pradesh1.jpg">
+        <br>
+        <br>
+        <p> The royal city of Fatehpur Sikri was once the capital of the Mughal era during Akbar’s reign. This royal city is one of the historical tourist places in India and once had palaces, public buildings, mosques, quarters for the king, the army as well as the servants. Further, the well planned royal city with carved columns and decorated pillars was built between 1571-1573 AD and abandoned due to a shortage of water.</p>
+        <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri" target="_blank"><button> See more</button></a>
+
+    </div>
+    <div class="g">
+        <h1> Hawa Mahal</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Hawa-Mahal-Jaipur.jpg">
+        <br>
+        <br>
+        <p> The ‘Palace of Winds’ or Hawa Mahal gets its name due to the fact that it looks like a honeycomb of a beehive with its 953 intricate windows. It is also shaped like a crown as the ruler who built it, Maharaja Sawai Pratap Singh, was a major devotee of Lord Krishna. This magnificent attraction is one of the popular tourist places in Jaipur and is among the India’s famous buildings due to its curved architecture. It is also known as the tallest building in the world that doesn’t have any foundation. The palace is curved but still stands firm due to its pyramidal shape.</p>
+        <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="_blank"><button> See more</button></a>
+
+    </div>
+    <div class="g">
+        <h1> Khajuraho Temples</h1>
+        <img src=" https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Khajuraho-Temples-Madhya-Pradesh.jpg">
+        <br>
+        <br>
+        <p>Khajuraho has always been thought of as the place that exemplifies sensuality and eroticism at its best. However this is a misrepresentation as only about 10 percent of the sculptures are sensual and the rest are common depictions. Countless sculptures depicting love, eternal grace, beauty, delicacy and the creative arts can be seen in one of the most historical places in India. A perfect amalgamation of Hinduism and Jainism, Khajuraho temples have carvings of cult icons, demi gods and Apsaras.</p>
+        <a href="https://en.wikipedia.org/wiki/Khajuraho_Temples" target="_blank"><button> See more</button></a>
+
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://plus.google.com/" target="_blank"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+           
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2026; Designed by <span class="designer">Ricky</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
